@@ -7,5 +7,5 @@ button.addEventListener("click", () => {
     let li = document.createElement("li");
     li.textContent = addinput.value;
     ol.appendChild(li);
-    addinput.value = " ";
+    addinput.value = "";
 })
