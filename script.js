@@ -1,12 +1,11 @@
 //your code here
-// let addTodoButton = document.getElementById('addTodoBtn');
+let addinput = document.getElementById("todoInput");
+let button = document.getElementById("addTodoBtn");
+let ol = document.getElementById("listofitem"); 
 
-// let todolist = document.getElementById('todoList');
-// let inputField = documnet.getElementById('newTodoInput');
-
-let title  = newTodoInput.value 
-addTodoBtn.addEventListener('click', (e)=>{
-    e.preventDefault();
-    title.innerHTML = (todoList);
-    title = "";
+button.addEventListener("click", () => {
+    let li = document.createElement("li");
+    li.textContent = addinput.value;
+    ol.appendChild(li);
+    addinput.value = "";
 })
