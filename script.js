@@ -1,7 +1,7 @@
 //your code here
-let addinput = document.getElementById("todoInput");
+let addinput = document.getElementById("newTodoInput");
 let button = document.getElementById("addTodoBtn");
-let ol = document.getElementById("listofitem"); 
+let ol = document.getElementById("todoList"); 
 
 button.addEventListener("click", () => {
     let li = document.createElement("li");
