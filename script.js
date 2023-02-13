@@ -6,6 +6,7 @@ let ol = document.getElementById("todoList");
 button.addEventListener("click", () => {
     let li = document.createElement("li");
     li.textContent = addinput.value;
+    if(addinput.value== "") return;
     ol.appendChild(li);
     addinput.value = "";
 })
