@@ -10,3 +10,19 @@ button.addEventListener("click", () => {
     ol.appendChild(li);
     addinput.value = "";
 })
+/*
+
+function addTodo(){
+	if(addinput.value){
+	//we need to create li 
+	 var li = document.createElement('li');
+	
+	 li.textContent = addinput.value;
+	 ol.appendChild(li);
+	 addinput.value ="";
+	
+	
+	}
+}
+btn.addEventListener('click', addTodo)
+*/
